@@ -590,6 +590,9 @@ header {
         align-items: center;
         font-size: 0.75rem;
     }
+    .footer .email{
+        display: none;
+    }
 }
 
 /*Pagina cadastro*/
