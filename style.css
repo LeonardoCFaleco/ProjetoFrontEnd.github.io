@@ -676,7 +676,7 @@ header {
 @media(max-width: 800px) {
     .cad-bg {
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
     
     .cadastro h1 {
@@ -774,7 +774,7 @@ header {
 @media(max-width: 800px) {
     .login-bg {
         margin-top: 20vh;
-        margin-bottom: 20vh;
+        margin-bottom: 22vh;
     }
     
     .login h1 {
