@@ -585,6 +585,10 @@ header {
         gap: 10px;
         flex-direction: column;
     }
+
+    .footer ul + ul {
+        margin-top: 0px;
+    }
     
     .footer li span {
         display: none;
