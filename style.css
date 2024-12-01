@@ -399,6 +399,10 @@ header {
     gap: 120px;
 }
 
+.footer ul +ul {
+    margin-top:5px;
+}
+
 .footer li span {
     font-family: 'Lato';
     font-size: 1rem;
