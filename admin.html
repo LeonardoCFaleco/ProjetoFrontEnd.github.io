@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container header">
+            <a class="logo" href="./index.html">ODS-11</a>
+            <nav class="nav-interna">
+                <ul>
+                    <li><a href="./index.html#ods">Sobre o ODS</a></li>
+                    <li><a href="./index.html#solucao">Solução</a></li>
+                    <li><a href="./index.html#impactos">Impactos</a></li>
+                    <li><a href="./admin.html">Admin</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-login">
+                <ul>
+                    <li><a class="cad" href="./cadastro.html">Cadastrar</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="./login.html">Entrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="adm-bg container">
+        <div class="adm">
+            <h1>Controle do Admin</h1>
+            <a class="add" href="">Cadastrar Usuário</a>
+            <div class="user-cad ">
+                <form>
+                    <div>
+                        <label for="nome">Nome do usuário</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </form>
+                <a class="regis" id="cadBt" href="">Cadastrar</a>
+            </div>
+            <a class="del" href="">Apagar um usuário</a>
+            <div class="user-del">
+                <form>
+                    <div>
+                        <label for="nomeDel">Nome do usuário</label>
+                        <input type="text" id="nomeDel" name="nomeDel">
+                    </div>
+                </form>
+                <a class="regis" id="delBt" href="">Deletar</a>
+            </div>
+            <a class="all" id="allBt" href="">Apagar todos usuário</a>
+            <a class="con" href="">Consultar Usuário</a>
+            <div class="user-con">
+                <form>
+                    <div>
+                        <label for="pesq">Pesquisar Usuario por Nome ou Email</label>
+                        <input type="text" id="pesq" name="pesq">
+                    </div>
+                    <div>
+                        <ul class="listaPesq"></ul>
+                    </div>
+                </form>
+                <a class="regis" id="conBt" href="">Consultar</a>
+            </div>
+        </div>
+    </section>
+    <section class="lista-bg container">
+        <div class="lista">
+            <h1>Lista de Usuários</h1>
+        </div>
+        <div>
+            <ul id="lista"></ul>
+        </div>
+    </section>
+    <footer class="footer-bg">
+        <div class="container footer">
+            <ul>
+                <li>
+                    <span>Leonardo Chidiquimo Faleco</span>
+                </li>
+                <li>
+                    <a href="https://leonardocfaleco.github.io/Aula-CSS.github.io/" target="_blank">Curriculo | Leonardo</a>
+                </li>
+                <li>
+                    <a class="email" href="mailto:leonardofaleco@alunos.utfpr.edu.br">leonardofaleco@alunos.utfpr.edu.br</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span>Mateus Puertas Garcia Lorenti</span>
+                </li>
+                <li>
+                    <a href="https://mateuspuertas.github.io" target="_blank">Curriculo | Mateus</a>
+                </li>
+                <li>
+                    <a class="email" href="mailto:mateuspuertas@alunos.utfpr.edu.br">mateuspuertas@alunos.utfpr.edu.br</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
